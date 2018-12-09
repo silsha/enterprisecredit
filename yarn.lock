@@ -599,7 +599,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.22.0, babel-runtime@^6.6.1:
+babel-runtime@^6.22.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -750,17 +750,16 @@ bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
-bookshelf@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/bookshelf/-/bookshelf-0.12.0.tgz#c11e83169d546b6b0caf03de2dfd5ba5e904c31b"
+bookshelf@^0.14.0:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/bookshelf/-/bookshelf-0.14.1.tgz#af12375a91c799c55fa94d54ce8cd23680d4e5c0"
+  integrity sha512-K3JRpBxP9aXr5Na7RZOYYyIOfexZHpvvIa2PlLwBPPn9PNCZl6rW/exhucJ5I2jwxHj9XIqyRQoKoCFjewjxRw==
   dependencies:
-    babel-runtime "^6.6.1"
     bluebird "^3.4.3"
-    chalk "^1.0.0"
+    colorette "^1.0.7"
     create-error "~0.3.1"
     inflection "^1.5.1"
-    inherits "~2.0.1"
-    lodash "^4.13.1"
+    lodash "^4.17.10"
 
 boom@2.x.x:
   version "2.10.1"
@@ -1092,6 +1091,11 @@ color@0.8.x:
   dependencies:
     color-convert "^0.5.0"
     color-string "^0.3.0"
+
+colorette@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.0.7.tgz#7adf43c445ee63a541b4a4aef7d13f03df1e0cc0"
+  integrity sha512-KeK4klsvAgdODAjFPm6QLzvStizJqlxMBtVo4KQMCgk5tt/tf9rAzxmxLHNRynJg3tJjkKGKbHx3j4HLox27Lw==
 
 colornames@0.0.2:
   version "0.0.2"
